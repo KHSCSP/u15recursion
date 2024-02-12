@@ -1,5 +1,12 @@
 import pygame, random
 
+def get_color():
+    r = random.randint(0,255)
+    g = random.randint(0,255)
+    b = random.randint(0,255)
+    return (r,g,b)
+
+
 # example 1
 # horizontal lines
 def horiz_lines(screen, x, y, size):
@@ -7,7 +14,7 @@ def horiz_lines(screen, x, y, size):
 
 # example 2
 # sierpinski
-def sierpinski(screen, x1, y1, x2, y2, x3, y3):
+def sierpinski(screen, color, x1, y1, x2, y2, x3, y3):
     pass
 
 # example 3
