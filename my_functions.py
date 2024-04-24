@@ -9,7 +9,7 @@ def get_color():
 
 # example 1
 # horizontal lines
-def horiz_lines(screen, x, y, size):
+def horiz_lines(screen, x1, y1, size):
     pass
 
 # example 2
