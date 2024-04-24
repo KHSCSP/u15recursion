@@ -3,8 +3,8 @@ import my_functions as f
 
 # setup
 pygame.init()
-w = 300
-h = 300
+w = 800
+h = 800
 screen = pygame.display.set_mode([w, h])
 screen.fill((255, 255, 255))
 
